@@ -1,11 +1,11 @@
 export const interfaceTypeData = [
   {
-    id: crypto.randomUUID(),
+    id: 1,
     value: "txt2img",
     name: "txt2img",
   },
   {
-    id: crypto.randomUUID(),
+    id: 2,
     value: "img2img",
     name: "img2img",
   },
@@ -13,37 +13,37 @@ export const interfaceTypeData = [
 
 export const modelNameData = [
   {
-    id: crypto.randomUUID(),
+    id: 1,
     value: "Deliberate v2",
     name: "Deliberate v2",
   },
   {
-    id: crypto.randomUUID(),
+    id: 2,
     value: "dreamshaper_332BakedVaeClipFix",
     name: "dreamshaper_332BakedVaeClipFix",
   },
   {
-    id: crypto.randomUUID(),
+    id: 3,
     value: "disneyPixarCartoon_v10",
     name: "disneyPixarCartoon_v10",
   },
   {
-    id: crypto.randomUUID(),
+    id: 4,
     value: "Realistic_Vision_V5",
     name: "Realistic_Vision_V5",
   },
   {
-    id: crypto.randomUUID(),
+    id: 5,
     value: "realcartoonPixar_v2",
     name: "realcartoonPixar_v2",
   },
   {
-    id: crypto.randomUUID(),
+    id: 6,
     value: "dreamshaper_8",
     name: "dreamshaper_8",
   },
   {
-    id: crypto.randomUUID(),
+    id: 7,
     value: "realcartoon3d_v12",
     name: "realcartoon3d_v12",
   },
@@ -51,32 +51,32 @@ export const modelNameData = [
 
 export const vaeNameData = [
   {
-    id: crypto.randomUUID(),
+    id: 1,
     value: "color101VAE_v1.safetensors",
     name: "color101VAE_v1.safetensors",
   },
   {
-    id: crypto.randomUUID(),
+    id: 2,
     value: "color101VAE_v1.safetensors",
     name: "color101VAE_v1.safetensors",
   },
   {
-    id: crypto.randomUUID(),
+    id: 3,
     value: "color101VAE_v1.safetensors",
     name: "color101VAE_v1.safetensors",
   },
   {
-    id: crypto.randomUUID(),
+    id: 4,
     value: "vae-ft-mse-840000-ema-pruned_fp16.safetensors",
     name: "vae-ft-mse-840000-ema-pruned_fp16.safetensors",
   },
   {
-    id: crypto.randomUUID(),
+    id: 5,
     value: "kl-f8-anime2_fp16.safetensors",
     name: "kl-f8-anime2_fp16.safetensors",
   },
   {
-    id: crypto.randomUUID(),
+    id: 6,
     value: "none",
     name: "none",
   },
@@ -84,32 +84,32 @@ export const vaeNameData = [
 
 export const moduleData = [
   {
-    id: crypto.randomUUID(),
+    id: 1,
     value: "Tile_Resample",
     name: "Tile_Resample",
   },
   {
-    id: crypto.randomUUID(),
+    id: 2,
     value: "lineart_realistic",
     name: "lineart_realistic",
   },
   {
-    id: crypto.randomUUID(),
+    id: 3,
     value: "scribble_xdog",
     name: "scribble_xdog",
   },
   {
-    id: crypto.randomUUID(),
+    id: 4,
     value: "lineart_standard",
     name: "lineart_standard",
   },
   {
-    id: crypto.randomUUID(),
+    id: 5,
     value: "lineart_coarse",
     name: "lineart_coarse",
   },
   {
-    id: crypto.randomUUID(),
+    id: 6,
     value: "Canny",
     name: "Canny",
   },
@@ -117,32 +117,32 @@ export const moduleData = [
 
 export const modelData = [
   {
-    id: crypto.randomUUID(),
+    id: 1,
     value: "control_v11f1e_sd15_tile",
     name: "control_v11f1e_sd15_tile",
   },
   {
-    id: crypto.randomUUID(),
+    id: 2,
     value: "control_v11p_sd15_lineart",
     name: "control_v11p_sd15_lineart",
   },
   {
-    id: crypto.randomUUID(),
+    id: 3,
     value: "control_v11p_sd15_scribble",
     name: "control_v11p_sd15_scribble",
   },
   {
-    id: crypto.randomUUID(),
+    id: 4,
     value: "control_v11p_sd15_lineart",
     name: "control_v11p_sd15_lineart",
   },
   {
-    id: crypto.randomUUID(),
+    id: 5,
     value: "control_v11p_sd15_lineart",
     name: "control_v11p_sd15_lineart",
   },
   {
-    id: crypto.randomUUID(),
+    id: 6,
     value: "control_v11p_sd15_canny",
     name: "control_v11p_sd15_canny",
   },
