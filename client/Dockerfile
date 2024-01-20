@@ -1,18 +1,15 @@
-FROM node:18-alpine  as build
+FROM node:18-alpine
 
 WORKDIR /app
-# Copy package.json and package-lock.json to the working directory
-COPY package*.json ./
-# Install dependencies
+
+COPY package.json .
+
 RUN npm install
-# Copy the entire app to the container
+
 COPY . .
-# Build the app
+
 RUN npm run build
 
+EXPOSE 3000
 
-# Expose port 4204
-EXPOSE 4173
-
-# Start production container
 CMD ["npm", "run", "preview"]
